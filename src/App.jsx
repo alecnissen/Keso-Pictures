@@ -1,10 +1,11 @@
 import React from 'react';
 import './Styles/index.scss';
+import Header from './Components/Header';
 
 export default function App() {
   return (
     <>
-    <h1>Hello World</h1>
+    <Header></Header>
     </>
   );
 }

@@ -1,0 +1,46 @@
+.header-content-wrapper { 
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: black;
+    height: 25vh;
+}
+
+.title-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 1em;
+    font-family: sans-serif;
+}
+
+.text-container { 
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container h1, h3 { 
+    color: white;
+}
+
+.keso-logo-header { 
+    width: 9em;
+    border-radius: 2em;
+}
+
+.header-btn-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.header-btn-container button { 
+    font-size: 1.3rem;
+    border: none;
+    background: none;
+    color: white;
+    font-family: sans-serif;
+}
+
