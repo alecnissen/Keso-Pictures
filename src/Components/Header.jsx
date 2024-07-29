@@ -1,6 +1,7 @@
 import React from 'react'
 import kesoLogo from '../assets/Keso-Logo.png';
-
+import instaLogo from '../assets/instagram-logo-facebook-2-svgrepo-com.svg'
+import fbLogo from '../assets/facebook-logo-svgrepo-com.svg'
 
 export default function Header() {
   return (
@@ -10,7 +11,7 @@ export default function Header() {
     <img src={kesoLogo} className='keso-logo-header'></img>
     <div className='text-container'>
     <h1>Keso Pictures</h1>
-    <h3>PhotoBooth Company</h3>
+    <h3>PhotoBooth Services</h3>
     </div>
     </div>
 
@@ -26,8 +27,13 @@ export default function Header() {
     </div>
 
 
-    <a>Instagram</a>
-    <a>Facebook</a>
+    <div className='social-links-container'>
+        <img src={instaLogo}></img>
+        <img src={fbLogo}></img>
+    </div>
+
+
+
 
 
     </div>

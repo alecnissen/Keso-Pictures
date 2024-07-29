@@ -1,9 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
 .header-content-wrapper { 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1em;
     background-color: black;
-    height: 25vh;
+    // height: 25vh;
 }
 
 .title-container { 
@@ -12,16 +18,20 @@
     align-items: center;
     padding: 1em;
     gap: 1em;
-    font-family: sans-serif;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
 }
 
 .text-container { 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .title-container h1, h3 { 
     color: white;
+    font-size: 1.7rem;
 }
 
 .keso-logo-header { 
@@ -33,14 +43,206 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.2em;
+    position: relative;
+    right: 9em;
+    gap: 2em;
+    // font-family: "Italiana", sans-serif;
+    // font-weight: 600;
+    
 }
 
 .header-btn-container button { 
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     border: none;
     background: none;
     color: white;
-    font-family: sans-serif;
+    font-family: "Italiana", sans-serif;
+    font-weight: 600;
+    position: relative; /* Added to position the pseudo-element correctly */
+    overflow: hidden; /* Ensures the underline animation stays within button bounds */
+    cursor: pointer;
 }
 
+
+.header-btn-container button::after { 
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.header-btn-container button:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.social-links-container { 
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+
+
+.social-links-container img { 
+    width: 2em;
+}
+
+@media (max-width: 1370px) { 
+    .header-btn-container { 
+        position: relative;
+        right: 5em;
+    }
+}
+
+@media (max-width: 1230px) { 
+    .header-content-wrapper { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .title-container h1, h3 { 
+        font-size: 2.5rem;
+    }
+
+    .title-container { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-btn-container { 
+        position: relative;
+        right: 0;
+    } 
+
+    .header-btn-container button { 
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 630px) { 
+    .title-container h1, h3 { 
+        font-size: 1.7rem;
+    }
+
+    .header-btn-container button { 
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 430px) { 
+    .header-btn-container { 
+        flex-wrap: wrap;
+        gap: 1em;
+    }
+
+    .header-btn-container button { 
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .header-content-wrapper { 
+//     display: flex;
+//     justify-content: space-around;
+//     padding: 1em;
+//     background-color: black;
+//     height: 25vh;
+// }
+
+// .title-container { 
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 1em;
+//     gap: 1em;
+//     font-family: "Italiana", sans-serif;
+//     font-weight: 400;
+// }
+
+// .text-container { 
+//     display: flex;
+//     flex-direction: column;
+// }
+
+// .title-container h1, h3 { 
+//     color: white;
+//     font-size: 1.7rem;
+// }
+
+// .keso-logo-header { 
+//     width: 9em;
+//     border-radius: 2em;
+// }
+
+// .header-btn-container { 
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 1em;
+// }
+
+// .header-btn-container button { 
+//     font-size: 1.3rem;
+//     border: none;
+//     background: none;
+//     color: white;
+//     font-family: "Italiana", sans-serif;
+//     font-weight: 600;
+//     position: relative;
+//     overflow: hidden;
+//     cursor: pointer;
+// }
+
+// .header-btn-container button::after { 
+//     content: '';
+//     position: absolute;
+//     width: 100%;
+//     height: 2px;
+//     bottom: 0;
+//     left: 0;
+//     background-color: white;
+//     transform: scaleX(0);
+//     transform-origin: bottom right;
+//     transition: transform 0.3s ease-out;
+// }
+
+// .header-btn-container button:hover::after {
+//     transform: scaleX(1);
+//     transform-origin: bottom left;
+// }
+
+// .social-links-container { 
+//     display: flex;
+//     align-items: center;
+//     gap: 1em;
+// }
+
+// .social-links-container img { 
+//     width: 2em;
+// }
