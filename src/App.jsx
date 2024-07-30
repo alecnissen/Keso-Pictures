@@ -8,8 +8,8 @@ export default function App() {
   return (
     <>
     <Header></Header>
-    <MainPhotoHome></MainPhotoHome>
-    <DescriptionAndPhotoHome></DescriptionAndPhotoHome>
+    {/* <MainPhotoHome></MainPhotoHome>
+    <DescriptionAndPhotoHome></DescriptionAndPhotoHome> */}
     </>
   );
 }
