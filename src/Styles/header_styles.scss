@@ -8,7 +8,11 @@
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background-color: black;
+    background-color: rgb(243, 182, 69);
+    // background-color: rgba(0, 0, 0, 0.85);
+    width: 100vw;
+    z-index: 1000;
+    
     // height: 25vh;
 }
 
