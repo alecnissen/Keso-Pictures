@@ -5,8 +5,9 @@ export default function DescriptionAndPhotoHome() {
   return (
     <>
       <div className="description-and-photo-content-wrapper">
-   
+        <h1>Welcome</h1>
       </div>
     </>
   );
 }
+
