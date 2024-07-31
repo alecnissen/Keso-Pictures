@@ -1,0 +1,28 @@
+.welcomeimg-content-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome-title-subtitle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.welcome-header {
+  font-family: 'Rouge Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8rem;
+}
+
+
+.welcome-subtitle {
+  max-width: 60em;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
