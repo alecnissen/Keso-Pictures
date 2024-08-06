@@ -1,5 +1,7 @@
 import React from 'react';
 import descriptionAndTextImage from '../assets/6883.jpg';
+import img1 from '../assets/2150191521.jpg';
+import img2 from '../assets/2150191520.jpg'
 
 export default function WelcomeImg() {
   return (
@@ -16,6 +18,13 @@ export default function WelcomeImg() {
             expedita error iste unde nobis sequi.
           </p>
         </div>
+
+
+        <div className='photo-container'> 
+          <img src={img1} className='img-1-styles'></img>
+          <img src={img2} className='img-2-styles'></img>
+        </div>
+
       </div>
     </>
   );
