@@ -15,24 +15,11 @@ export default function ImgsAndPackages() {
         </div>
 
 
-      <div className='packages-content-container'>
-        <h1>Seeking a stylish touch for the party of the century?</h1>
-        <h1 className='explore-our-services-text'>Explore Our Services!</h1>
+        <div className='test-1-container'> 
 
-            <ul className='services-list'> 
-            <h1>Photobooth Packages</h1>
-            <h1>Photobooth Galleries</h1>
-            </ul>
+        <h1>Looking for a stylish touch?</h1>
 
-
-            <div className='packages-content-lower-container'>
-            <h1>Our Goal is to create wonderful memories</h1>
-            <h1>Let Our PhotoBooth Capture Your Best Memories</h1>
-            </div>  
-
-      </div>
-
-
+        </div>
 
     </div>
     </>
