@@ -17,7 +17,7 @@ export default function ImgsAndPackages() {
 
         <div className='test-1-container'> 
 
-        <h1>Looking for a stylish touch?</h1>
+        {/* <h1>Looking for a stylish touch?</h1> */}
 
         </div>
 
