@@ -2,8 +2,6 @@ import React from 'react'
 import kesoLogo from '../assets/Keso-Logo.png';
 import instaLogo from '../assets/instagram-logo-facebook-2-svgrepo-com.svg'
 import fbLogo from '../assets/facebook-logo-svgrepo-com.svg'
-import MainPhotoHome from './MainPhotoHome';
-// import mainPhoto from '../assets/medium-shot-friends-posing-photo-booth (1).jpg';
 
 export default function Header() {
   return (
