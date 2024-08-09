@@ -14,8 +14,6 @@ export default function WelcomeImg() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sed totam quaerat
             expedita amet consequatur incidunt quo, iure dolorem. Soluta itaque necessitatibus quasi
             veritatis impedit nemo at voluptate non molestiae? Quia, deleniti eos assumenda incidunt
-            dolorem at nostrum doloremque dolor perspiciatis, eius deleniti quaerat corrupti
-            expedita error iste unde nobis sequi.
           </p>
         </div>
 
