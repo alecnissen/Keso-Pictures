@@ -9,8 +9,8 @@ export default function App() {
   return (
     <>
     <Header></Header>
-    <WelcomeImg></WelcomeImg>
-    <ImgsAndPackages></ImgsAndPackages>
+    {/* <WelcomeImg></WelcomeImg>
+    <ImgsAndPackages></ImgsAndPackages> */}
     </>
   );
 }
