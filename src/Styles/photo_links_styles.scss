@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
 
 .photo-links-container { 
     display: flex;
     justify-content: center;
     padding: 1em;
+    gap: 5em;
 }
 
 .photo-container { 
@@ -12,23 +16,45 @@
 }
 
 
-// .img1-styles,
-// .img2-styles { 
-//     width: 35em;
-//     border-radius: 1em;
-// }
-
 .img1-styles { 
-    width: 50em;
+    width: 40em;
     border-radius: 1em;
+    position: relative;
+    right: 4em;
 }
 
 .img2-styles { 
     position: relative;
-    left: 10em;
-    bottom: 6em;
+    left: 4em;
+    bottom: 4em;
     width: 40em;
     border-radius: 1em;
     z-index: 1000;
     
+}
+
+.links-container { 
+    display: flex;
+    // justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    gap: 7em;
+}
+
+// .links-container h1 { 
+//     font-size: 3rem;
+// }
+
+.welcome-text { 
+    font-family: "Rouge Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7rem;
+}
+
+.link-style { 
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    border-bottom: 12px solid #d8d4d2;
 }
