@@ -21,20 +21,16 @@
 
 .a-tag-styles { 
     text-decoration: none;
-    color: inherit;
+    // color: inherit;
 }
 
-.getting-started-item { 
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 1em;
-}
 
 .getting-started-links-container { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2em;
 }
 
 .container-for-headers { 
@@ -43,15 +39,59 @@
     align-items: flex-start;
 }
 
-// .getting-started-links-container h1 {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center; /* Aligns text to the top */
-//     width: 100%; /* Ensures that the h1 elements stretch across the container */
-//   }
+.container-for-headers h1 { 
+    font-size: 2.2rem;
+}
 
-// .getting-started-links-container h1 a {
-//     text-align: left; /* Ensures links align to the left */
-//     flex: 1; /* Allows text to fill the remaining space */
-//   }
+.about-us-button { 
+    font-size: 2rem;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: rgb(247, 190, 84);;
+}
+
+
+.about-us-text-styles { 
+    border-bottom: 10px solid rgb(247, 190, 84);
+    font-size: 2.2rem;
+}
+
+
+
+@media (max-width: 900px) { 
+    .need-help-getting-started-text { 
+        font-size: 5rem;
+    }
+
+    .container-for-headers h1,
+    .about-us-text-styles { 
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 475px) { 
+    .need-help-getting-started-text { 
+        font-size: 4rem;
+    }
+
+    .container-for-headers h1,
+    .about-us-text-styles { 
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 380px) { 
+    .need-help-getting-started-text { 
+        font-size: 3.2rem;
+    }
+
+    .container-for-headers h1,
+    .about-us-text-styles { 
+        font-size: 1.3rem;
+    }
+}
 

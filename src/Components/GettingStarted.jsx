@@ -16,8 +16,9 @@ export default function GettingStarted() {
       </div>
 
 
-      <h1> 
-      <button>About Us</button>
+      <h1 className='about-us-text-styles'> 
+      {/* <button className='about-us-button'>About Us</button> */}
+      About Us
       </h1>
 
       </div>
