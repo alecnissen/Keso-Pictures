@@ -18,3 +18,40 @@
     font-style: normal;
     font-size: 6rem;
 }
+
+.a-tag-styles { 
+    text-decoration: none;
+    color: inherit;
+}
+
+.getting-started-item { 
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+
+.getting-started-links-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-for-headers { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+// .getting-started-links-container h1 {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center; /* Aligns text to the top */
+//     width: 100%; /* Ensures that the h1 elements stretch across the container */
+//   }
+
+// .getting-started-links-container h1 a {
+//     text-align: left; /* Ensures links align to the left */
+//     flex: 1; /* Allows text to fill the remaining space */
+//   }
+
