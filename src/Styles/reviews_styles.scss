@@ -8,6 +8,7 @@
 
 .carousel-review-item { 
     display: flex;
+    
     justify-content: center;
     text-align: center;
     
@@ -16,9 +17,16 @@
 .carousel-review-item p { 
     max-width: 40em;
     font-size: 1.3rem;
-    border: 2px solid black;
+    border: 3px solid black;
+    border-radius: 1em;
     padding: 1em;
 }
+
+.carousel-review-item div { 
+    padding-top: 0.3em;
+}
+
+
 
 .carousel-indicators button { 
     background-color: black !important;
@@ -27,6 +35,15 @@
 .carousel-control-next-icon, .carousel-control-prev-icon { 
    display: none !important;
 }
+
+
+@media (max-width: 500px) { 
+    .carousel-review-item p { 
+        font-size: 1.1rem;
+    }
+}
+
+
 
 // .carousel-control-prev-icon { 
 //     position: relative;
