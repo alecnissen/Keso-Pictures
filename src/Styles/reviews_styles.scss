@@ -1,6 +1,39 @@
 .reviews-content-wrapper { 
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    padding: 3em;
+    background-color: #f2eeec
+}
+
+.carousel-review-item { 
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 3em;
+    text-align: center;
+    
 }
+
+.carousel-review-item p { 
+    max-width: 40em;
+    font-size: 1.3rem;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.carousel-indicators button { 
+    background-color: black !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon { 
+   display: none !important;
+}
+
+// .carousel-control-prev-icon { 
+//     position: relative;
+//     right: 6em;
+// }
+
+// .carousel-indicators { 
+//     position: absolute;
+//     top: 10em;
+// }
