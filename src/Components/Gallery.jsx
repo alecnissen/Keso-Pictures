@@ -9,6 +9,11 @@ export default function Gallery() {
       <img src={galleryImg1}></img>
       <img src={galleryImg2}></img>
       <img src={galleryImg3}></img>
+
+
+        
+
+
     </div>
   )
 }
