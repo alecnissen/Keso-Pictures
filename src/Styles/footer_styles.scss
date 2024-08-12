@@ -1,0 +1,56 @@
+.footer-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    font-family: "Rouge Script", cursive;
+}
+
+.footer-content-wrapper h1 { 
+    font-size: 5rem;
+}
+
+.footer-content-wrapper img { 
+    width: 15em;
+    border-radius: 1em;
+}
+
+.email-phone-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    gap: 2em;
+    padding-top: 2em;
+}
+
+.email-phone-container p { 
+    font-size: 2rem;
+}
+
+.footer-social-links-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social-links-container img { 
+    width: 6em;
+}
+
+.footer-social-links-container img:nth-child(2) { 
+    width: 4.5em;
+}
+
+.footer-social-links-container svg { 
+    width: 6em;
+    height: 4.5em;
+}
+
+
+
+
