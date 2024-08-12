@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import PhotosAndLinks from './Components/PhotosAndLinks';
 import GettingStarted from './Components/GettingStarted';
 import Reviews from './Components/Reviews';
+import Gallery from './Components/Gallery';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
     <PhotosAndLinks></PhotosAndLinks>
     <GettingStarted></GettingStarted>
     <Reviews></Reviews>
+    <Gallery></Gallery>
     </>
   );
 }

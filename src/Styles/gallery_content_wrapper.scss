@@ -1,0 +1,19 @@
+.gallery-content-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 1em;
+}
+
+.gallery-content-wrapper img:nth-child(1) { 
+    width: 30.3em;
+}
+
+.gallery-content-wrapper img:nth-child(2) { 
+    width: 32em;
+}
+
+.gallery-content-wrapper img:nth-child(3) { 
+    width: 32em;
+}
