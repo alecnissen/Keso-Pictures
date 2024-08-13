@@ -6,10 +6,10 @@ import fbLogoFooter from '../assets/facebook-logo-svgrepo-com.svg';
 export default function Footer() {
   return (
     <div className="footer-content-wrapper">
-      <h1>Come Smile With Us!</h1>
-      <h1>Let Us Capture Your Best Moments!</h1>
+      {/* <h1>Come Smile With Us!</h1>
+      <h1>Let Us Capture Your Best Moments!</h1> */}
 
-      <img src={kesoLogoFooter} className='keso-logo-footer'></img>
+      {/* <img src={kesoLogoFooter} className='keso-logo-footer'></img> */}
 
       <div className="email-phone-container">
         <p>kesopictures@gmail.com</p>
