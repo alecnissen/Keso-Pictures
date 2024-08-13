@@ -8,11 +8,16 @@ export default function Header() {
     <> 
     <div className='header-content-wrapper'>
 
+    {/* <div class='header-info-wrapper'>  */}
+
+
+  
+
     <div className='title-container'>
     <img src={kesoLogo} className='keso-logo-header'></img>
     <div className='text-container'>
     <h1>Keso Pictures</h1>
-    <h3>PhotoBooth Services</h3>
+    <h3>Photobooth Services</h3>
     </div>
     </div>
 
@@ -37,7 +42,7 @@ export default function Header() {
 
     </div>
 
-
+    {/* </div> */}
     </>
 
   )
