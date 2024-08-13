@@ -16,10 +16,10 @@ export default function GettingStarted() {
       </div>
 
 
-      <h1 className='about-us-text-styles'> 
-      {/* <button className='about-us-button'>About Us</button> */}
+      {/* <h1 className='about-us-text-styles'> 
+     
       About Us
-      </h1>
+      </h1> */}
 
       </div>
 

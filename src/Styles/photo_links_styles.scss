@@ -7,6 +7,8 @@
     justify-content: center;
     padding: 1em;
     gap: 9em;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .photo-container { 
@@ -14,6 +16,8 @@
     flex-direction: column;
     // gap: 1em;
 }
+
+
 
 
 .img1-styles { 
@@ -35,10 +39,11 @@
 
 .links-container { 
     display: flex;
+    justify-content: center;
     // justify-content: space-evenly;
     flex-direction: column;
     text-align: center;
-    gap: 8em;
+    gap: 4em;
 }
 
 // .links-container h1 { 
@@ -49,7 +54,9 @@
     font-family: "Rouge Script", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 9rem;
+    font-size: 14rem;
+    color: #f1b179;
+    text-shadow: 1px 1px 2px black
 }
 
 .link-style { 
@@ -58,7 +65,7 @@
     font-optical-sizing: auto;
     font-weight: 500;
     // border-bottom: 12px solid #d8d4d2;
-    border-bottom: 12px solid rgb(247, 190, 84);
+    border-bottom: 12px solid #f1b179;
     letter-spacing: 3px;
 }
 
