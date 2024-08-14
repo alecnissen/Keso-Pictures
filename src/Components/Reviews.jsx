@@ -8,7 +8,7 @@ export default function Reviews() {
     <>
       <div className="reviews-content-wrapper">
         <h1 classname='reviews-content-wrapper-header'>What Our Clients Have To Say About Us!</h1>
-        <Carousel fade>
+        <Carousel fade controls={false}>
           <Carousel.Item>
             <div className="carousel-review-item">
               <p>
