@@ -7,11 +7,20 @@ import './Styles/index.scss';
 // import Gallery from './Components/Gallery';
 // import Footer from './Components/Footer';
 import Homepage from './Components/Homepage';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Services from './Components/Services';
 
 export default function App() {
   return (
     <>
-    <Homepage></Homepage>
+    <BrowserRouter>
+    <Routes>
+    <Route path='/' element={<Homepage></Homepage>}></Route>
+    <Route path='/Services' element={<Services></Services>}></Route>
+    </Routes>
+    </BrowserRouter>
     </>
   );
 }

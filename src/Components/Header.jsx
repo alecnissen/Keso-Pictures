@@ -2,6 +2,7 @@ import React from 'react'
 import kesoLogo from '../assets/Keso-Logo.png';
 import instaLogo from '../assets/instagram-logo-facebook-2-svgrepo-com.svg'
 import fbLogo from '../assets/facebook-logo-svgrepo-com.svg'
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -25,8 +26,12 @@ export default function Header() {
     
 
     <div className='header-btn-container'> 
+    <NavLink to="/">
     <button>Home</button>
+    </NavLink>
+    <NavLink to="/Services">
     <button>Services</button>
+    </NavLink>
     <button>Gallery</button>
     <button>About</button>
     <button>Contact</button>
