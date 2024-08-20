@@ -17,7 +17,7 @@
   // height: 25vh;
 }
 
-// .header-info-wrapper { 
+// .header-info-wrapper {
 //   width: 90%;
 //   margin-left: auto;
 //   margin-right: auto;
@@ -48,9 +48,9 @@
   margin-left: 1em;
 }
 
-.title-container h3 { 
- color: #f1b179;
- margin-left: 1em;
+.title-container h3 {
+  color: #f1b179;
+  margin-left: 1em;
 }
 
 .keso-logo-header {
@@ -91,7 +91,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #f1b179;;
+  background-color: #f1b179;
   transform: scaleX(0);
   transform-origin: bottom right;
   transition: transform 0.3s ease-out;
@@ -112,92 +112,109 @@
   width: 1.9em;
 }
 
-.social-links-container svg { 
+.social-links-container svg {
   width: 2em;
 }
 
-
-
-// .social-links-container img:nth-child(2) { 
-//   width: 2em;
-// }
-
-
-// media queries
-
-// @media (max-width: 1370px) {
-//   .header-btn-container {
-//     position: relative;
-//     right: 5em;
-//   }
-// }
-
-// @media (max-width: 1230px) {
-//   .header-content-wrapper {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: center;
-//     align-items: center;
-//     gap: 1em;
-//   }
-
-
-
-@media (max-width: 1575px) { 
+@media (max-width: 1375px) {
   .header-content-wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1em;
-      }
-
-      .title-container h1,
-      h3 {
-        font-size: 2.5rem;
-      }
-      
-      .title-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      .header-btn-container {
-        position: relative;
-        right: 0;
-      }
-      
-      .header-btn-container button {
-        font-size: 1.7rem;
-      }
-}
-
-
-
-@media (max-width: 800px) {
-  .title-container h1,
-  h3 {
-    font-size: 1.7rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
   }
 
-  .header-btn-container button {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 625px) {
   .header-btn-container {
+    justify-content: center;
+    align-items: center;
+    // position: relative;
+    // right: 17rem;
+    position: static;
+  }
+}
+
+
+@media (max-width: 700px) { 
+  .header-btn-container button { 
+    font-size: 1rem;
+  }
+
+  .header-btn-container { 
     flex-wrap: wrap;
     gap: 1em;
   }
 
-  .header-btn-container button {
-    font-size: 1rem;
-  }
-
   .title-container { 
-    text-align: center;
+    gap: 0;
   }
 }
+
+
+@media (max-width: 530px) { 
+  .title-container { 
+    flex-direction: column;
+    gap: 0.5em;
+  }
+}
+
+
+
+
+
+// @media (max-width: 1575px) {
+//   .header-content-wrapper {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         gap: 1em;
+//       }
+
+//       .title-container h1,
+//       h3 {
+//         font-size: 2.5rem;
+//       }
+
+//       .title-container {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//       }
+
+//       .header-btn-container {
+//         position: relative;
+//         right: 0;
+//       }
+
+//       .header-btn-container button {
+//         font-size: 1.7rem;
+//       }
+// }
+
+// @media (max-width: 800px) {
+//   .title-container h1,
+//   h3 {
+//     font-size: 1.7rem;
+//   }
+
+//   .header-btn-container button {
+//     font-size: 1.2rem;
+//   }
+// }
+
+// @media (max-width: 625px) {
+//   .header-btn-container {
+//     flex-wrap: wrap;
+//     gap: 1em;
+//   }
+
+//   .header-btn-container button {
+//     font-size: 1rem;
+//   }
+
+//   .title-container {
+//     text-align: center;
+//   }
+// }

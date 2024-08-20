@@ -11,11 +11,11 @@ export default function App() {
   return (
     <>
     <Header></Header>
-    <PhotosAndLinks></PhotosAndLinks>
+    {/* <PhotosAndLinks></PhotosAndLinks>
     <GettingStarted></GettingStarted>
     <Reviews></Reviews>
     <Gallery></Gallery>
-    <Footer></Footer>
+    <Footer></Footer> */}
     </>
   );
 }
