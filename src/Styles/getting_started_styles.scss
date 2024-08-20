@@ -74,38 +74,22 @@
 }
 
 
-
-@media (max-width: 900px) { 
-    .need-help-getting-started-text { 
-        font-size: 5rem;
-        
-    }
-
-    .container-for-headers h1,
-    .about-us-text-styles { 
-        font-size: 1.6rem;
-    }
-}
-
-@media (max-width: 475px) { 
+@media (max-width: 650px) { 
     .need-help-getting-started-text { 
         font-size: 4rem;
     }
 
-    .container-for-headers h1,
-    .about-us-text-styles { 
-        font-size: 1.3rem;
+    .container-for-headers h1 { 
+        font-size: 1.5rem;
     }
 }
 
-@media (max-width: 380px) { 
+@media (max-width: 400px) { 
+    .container-for-headers h1 { 
+        font-size: 1.2rem;
+    }
+
     .need-help-getting-started-text { 
-        font-size: 3.2rem;
-    }
-
-    .container-for-headers h1,
-    .about-us-text-styles { 
-        font-size: 1.3rem;
-    }
+        font-size: 2.8rem;
+    } 
 }
-
