@@ -15,7 +15,7 @@ export default function App() {
     <GettingStarted></GettingStarted>
     <Reviews></Reviews>
     <Gallery></Gallery>
-    {/* <Footer></Footer> */}
+    <Footer></Footer>
     </>
   );
 }
