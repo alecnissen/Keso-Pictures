@@ -11,8 +11,8 @@ export default function App() {
   return (
     <>
     <Header></Header>
-    {/* <PhotosAndLinks></PhotosAndLinks>
-    <GettingStarted></GettingStarted>
+    <PhotosAndLinks></PhotosAndLinks>
+    {/* <GettingStarted></GettingStarted>
     <Reviews></Reviews>
     <Gallery></Gallery>
     <Footer></Footer> */}

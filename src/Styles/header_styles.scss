@@ -156,6 +156,11 @@
     flex-direction: column;
     gap: 0.5em;
   }
+
+  .title-container h1,
+  .title-container h3 { 
+    margin-left: 0;
+  }
 }
 
 
