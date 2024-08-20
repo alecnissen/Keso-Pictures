@@ -22,3 +22,42 @@
     bottom: 2.5rem;
     left: 10rem;
 }
+
+.services-digital-printed-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.digital-photobooth-container,
+.printed-photobooth-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    padding: 1rem;
+}
+
+
+.digital-photobooth-container h1,
+.printed-photobooth-container h1 { 
+    text-decoration: underline;
+    text-decoration-color: #f1b179;
+    text-underline-offset: 0.6rem;
+    
+}
+
+.digital-photobooth-container p, 
+.printed-photobooth-container p { 
+    max-width: 20rem;
+    font-size: 1.5rem;
+    // font-size: 1.3rem;
+    
+}
