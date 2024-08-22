@@ -38,6 +38,10 @@ export default function Services() {
               </p>
             </div>
 
+            <div className='printed-photobooth-price-tag-container'>
+              <div className='printed-photobooth-price-tag'>$149 <br></br> Per <br></br> Hour</div>
+            </div>
+
             <div className="printed-photobooth-container">
 
 
@@ -47,12 +51,34 @@ export default function Services() {
                 high-speed professional printer in 4"x6" or 2"x6" strips.
               </p>
             </div>
+          </div>
+
+
+        <div className='magnet-photobooth-wrapper'>
+
+          <div className='magnet-photobooth-price-tag-container'>
+            <div className='magnet-photobooth-price-tag'>$249 <br></br> Per <br></br> Hour</div>
+          </div>
 
 
 
+        <div className='magnet-photobooth-container'>
+            <h1>Magnet Photobooth</h1>
+              <p>
+              Take your photos to the next level with a professional photo
+              magnet your guests can take home the day of your event.
+              Photos are printed, pressed and mounted on a 2.5"x3.5" high
+              quality magnet, a truly unique keepsake your guests can enjoy
+              for years to come.
+              </p>
 
           </div>
+          </div>
+
+
         </div>
+
+
       </div>
     </>
   );

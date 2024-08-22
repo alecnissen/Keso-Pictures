@@ -32,6 +32,14 @@
     bottom: 13rem; 
 }
 
+.service-options-container { 
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    
+}
+
 .services-digital-printed-container { 
     display: flex;
     justify-content: flex-start;
@@ -70,17 +78,70 @@
     font-family: "Montserrat", sans-serif;
 }
 
+.printed-photobooth-price-tag-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 3.5rem;
+    z-index: 4;
+}
+
+.printed-photobooth-price-tag { 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    background-color: #f1b179;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.magnet-photobooth-price-tag-container { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 2rem;
+    z-index: 4;
+}
+
+.magnet-photobooth-price-tag { 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    background-color: #f1b179;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
 
 
 .digital-photobooth-container,
-.printed-photobooth-container { 
+.printed-photobooth-container,
+.magnet-photobooth-container { 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 40rem;
-    height: 20rem;
+    // width: 40rem;
+    // height: 20rem;
     text-align: center;
     border-radius: 1rem;
     font-family: "Montserrat", sans-serif;
@@ -98,7 +159,8 @@
 
 
 .digital-photobooth-container h1,
-.printed-photobooth-container h1 { 
+.printed-photobooth-container h1,
+.magnet-photobooth-container h1 { 
     text-decoration: underline;
     text-decoration-color: #f1b179;
     text-underline-offset: 0.6rem;
@@ -107,11 +169,16 @@
 }
 
 .digital-photobooth-container p, 
-.printed-photobooth-container p { 
+.printed-photobooth-container p,
+.magnet-photobooth-container p { 
     max-width: 25rem;
     font-size: 1.5em;
     // font-size: 1.3rem;
     
+}
+
+.magnet-photobooth-container p { 
+    max-width: 40rem;
 }
 
 .orange-circle { 
@@ -123,4 +190,17 @@
     bottom: -2rem;                /* Adjust the position to move it behind */
     left: 70rem;                /* Adjust as needed */
     z-index: -1;                /* Place it behind the other elements */
+}
+
+// .magnet-photobooth-container { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+.magnet-photobooth-wrapper { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
