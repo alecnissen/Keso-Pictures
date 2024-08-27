@@ -59,3 +59,82 @@
     top: 10rem;
     right: 3rem;
 }
+
+
+.content-containers-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem; 
+    padding: 2rem; 
+    gap: 2rem;
+}
+
+.services2-top-row-container { 
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+}
+
+.or-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+.we-design-it-container,
+.you-design-it-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    padding: 2rem;
+    position: relative;
+    z-index: 3;
+}
+
+
+
+.package-upgrades-container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    padding: 2rem;
+    position: relative;
+    z-index: 3;
+}
+
+
+.we-design-it-container p,
+.you-design-it-container p { 
+    max-width: 25rem;
+    font-size: 1.5rem;
+}
+
+.package-upgrades-container li { 
+    font-size: 1.3rem;
+}
+
+.we-design-it-container h1,
+.you-design-it-container h1,
+.package-upgrades-container h1 { 
+    text-decoration: underline;
+    text-decoration-color: #f1b179;
+    text-underline-offset: 0.6rem;
+    font-size: 2.7rem;
+}
