@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import starImg from '../assets/star-alt-4-svgrepo-com.svg';
 import kesoLogo from '../assets/Keso-Logo.png';
+import Services2 from './Services2';
 
 export default function Services() {
   return (
@@ -111,6 +112,11 @@ your event. Packages are subject to taxes.</p>
 
         </div>
       </div>
+
+
+          
+          <Services2></Services2>
+
     </>
   );
 }

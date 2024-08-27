@@ -1,0 +1,61 @@
+.services2-content-wrapper {
+    background-color: #f2eeec;
+    padding: 2rem;
+    position: relative;
+} 
+
+.keso-logo-2 { 
+    z-index: 2;
+    width: 18rem;
+    border-radius: 50%;
+    position: relative;
+    right: 20rem;
+    bottom: -7rem;
+}
+
+.services2-keso-logo-header-container { 
+    display: flex;
+    justify-content: center;
+    // justify-content: space-evenly;
+    // justify-content: flex-end;
+    position: relative;
+    z-index: 4;
+}
+
+
+
+
+
+.orange-circle-2 { 
+    width: 30rem;               /* Width of the circle */
+    height: 30rem;              /* Height of the circle */
+    background-color: #f1b179;   /* Background color of the circle */
+    border-radius: 50%;         /* Makes the div a circle */
+    position: absolute;         /* Position it absolutely */
+    bottom: -5rem;                /* Adjust the position to move it behind */
+    left: 3rem;                /* Adjust as needed */
+    z-index: -1;  
+}
+
+.services2-keso-logo-header-container h1 { 
+    font-family: "Rouge Script", cursive;
+    font-size: 10rem;
+    color: #f1b179;
+    text-shadow: 1px 1px 2px black;
+    z-index: 4;
+    position: relative;
+    // right: 4rem;
+    text-align: center;
+}
+
+.services2-star-img-1 { 
+    position: relative;
+    right: 39rem;
+    bottom: 10rem;
+}
+
+.services2-star-img-2 { 
+    position: relative;
+    top: 10rem;
+    right: 3rem;
+}
