@@ -13,6 +13,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Services from './Components/Services';
 import Services2 from './Components/Services2';
 import GalleryPage from './Components/GalleryPage';
+import AboutUs from './Components/AboutUs';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
     <Route path='/' element={<Homepage></Homepage>}></Route>
     <Route path='/Services' element={<Services></Services>}></Route>
     <Route path='/GalleryPage' element={<GalleryPage></GalleryPage>}></Route>
+    <Route path='/AboutUs' element={<AboutUs></AboutUs>}></Route>
     </Routes>
     </BrowserRouter>
     </>

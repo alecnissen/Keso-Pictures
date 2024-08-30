@@ -18,6 +18,7 @@ import video1 from '../assets/video (1).mp4';
 import video2 from '../assets/video (3).mp4';
 import video3 from '../assets/video (6).mp4';
 import video4 from '../assets/video (14).mp4';
+import starImgGallery from '../assets/star-alt-4-svgrepo-com.svg';
 
 
 export default function GalleryPage() {
@@ -26,7 +27,10 @@ export default function GalleryPage() {
     <Header></Header>
     <div className='gallery-page-content-wrapper'>
       <div className='gallery-page-header-container'>
+
+        <img src={starImgGallery} className='star-img-1-gallery-page'></img>
         <h1>Customize Your Style</h1>
+        <img src={starImgGallery} className='star-img-2-gallery-page'></img>
       </div>
 
       <div className='photo-container-gallery-page'>
