@@ -62,3 +62,32 @@
     width: 25rem;
     border-radius: 1rem;
 }
+
+.explore-services-container { 
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.explore-services-container a { 
+    color: #f1b179;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+}
+
+.explore-services-container a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: #f1b179;
+    transition: width 0.3s ease-in-out;
+}
+
+.explore-services-container a:hover::after {
+    width: 100%;
+}

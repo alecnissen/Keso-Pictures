@@ -3,8 +3,16 @@ import Header from './Header';
 import starImg from '../assets/star-alt-4-svgrepo-com.svg';
 import kesoLogo from '../assets/Keso-Logo.png';
 import Services2 from './Services2';
+import { useLayoutEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export default function Services() {
+  const { pathname } = useLocation();
+
+  useLayoutEffect(() => {
+      window.scrollTo(0, 0)
+  }, [pathname]);
+
   return (
     <>
       <Header></Header>

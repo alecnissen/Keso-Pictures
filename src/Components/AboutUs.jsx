@@ -5,8 +5,17 @@ import { Link } from 'react-router-dom';
 import kesoAboutUsImg from '../assets/keso-about-us.png';
 import aboutUsImg1 from '../assets/DSC04817_1.jpg';
 import aboutUsImg2 from '../assets/DSC04806_1.jpg';
+import { useLayoutEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export default function AboutUs() {
+    const { pathname } = useLocation();
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    }, [pathname]);
+    
+    
   return (
     <>
       <Header></Header>
@@ -51,7 +60,9 @@ export default function AboutUs() {
         </div>
 
 
-
+        <div className='explore-services-container'> 
+            <Link to='/Services'><h1>Explore Our Services!</h1></Link>
+        </div>
 
 
 
