@@ -5,8 +5,10 @@
     align-items: center;
     padding: 2rem;
     background-color: #f2eeec;
+    border-bottom: 4px solid #f1b179;
 }
 
+.hello-container,
 .about-us-container { 
     display: flex;
     flex-direction: column;
@@ -15,6 +17,7 @@
     gap: 1rem;
 }
 
+.hello-container h1,
 .about-us-container h1 { 
     font-family: "Rouge Script", cursive;
     font-size: 11rem;
@@ -24,6 +27,7 @@
     position: relative;
 }
 
+.hello-textbox,
 .about-us-textbox { 
     background-color: white;
     font-size: 1.8rem;
@@ -33,11 +37,28 @@
     border-radius: 1rem;
 }
 
+.hello-textbox p,
 .about-us-textbox p { 
-    max-width: 50rem;
+    max-width: 60rem;
 }
 
-.about-us-container img { 
+ 
+
+.hello-container img { 
     width: 35rem;
+    border-radius: 1rem;
+}
+
+
+.about-us-photo-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.about-us-photo-container img { 
+    width: 25rem;
     border-radius: 1rem;
 }
