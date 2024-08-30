@@ -12,6 +12,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Services from './Components/Services';
 import Services2 from './Components/Services2';
+import GalleryPage from './Components/GalleryPage';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
     <Routes>
     <Route path='/' element={<Homepage></Homepage>}></Route>
     <Route path='/Services' element={<Services></Services>}></Route>
+    <Route path='/GalleryPage' element={<GalleryPage></GalleryPage>}></Route>
     </Routes>
     </BrowserRouter>
     </>

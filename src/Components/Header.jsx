@@ -32,7 +32,10 @@ export default function Header() {
     <NavLink to="/Services">
     <button>Services</button>
     </NavLink>
+    <NavLink to='/GalleryPage'>
     <button>Gallery</button>
+    </NavLink>
+
     <button>About</button>
     <button>Contact</button>
     </div>

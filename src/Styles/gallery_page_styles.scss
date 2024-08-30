@@ -1,0 +1,35 @@
+.gallery-page-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2eeec;
+}
+
+.gallery-page-header-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-page-header-container h1 { 
+    font-family: "Rouge Script", cursive;
+    font-size: 11rem;
+    text-shadow: 1px 1px 2px black;
+    z-index: 4;
+    position: relative;
+    color: #f1b179;
+}
+
+.photo-container { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.photo-container img { 
+    width: 30rem;
+}
