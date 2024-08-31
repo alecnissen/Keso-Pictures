@@ -14,6 +14,8 @@ import Services from './Components/Services';
 import Services2 from './Components/Services2';
 import GalleryPage from './Components/GalleryPage';
 import AboutUs from './Components/AboutUs';
+import Contact from './Components/Contact';
+
 
 export default function App() {
   return (
@@ -24,6 +26,7 @@ export default function App() {
     <Route path='/Services' element={<Services></Services>}></Route>
     <Route path='/GalleryPage' element={<GalleryPage></GalleryPage>}></Route>
     <Route path='/AboutUs' element={<AboutUs></AboutUs>}></Route>
+    <Route path='/Contact' element={<Contact></Contact>}></Route>
     </Routes>
     </BrowserRouter>
     </>

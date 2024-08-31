@@ -38,8 +38,10 @@ export default function Header() {
     <NavLink to='/AboutUs'>
     <button>About</button>
     </NavLink>
-
+    <NavLink to='/Contact'>
     <button>Contact</button>
+    </NavLink>
+
     </div>
 
 

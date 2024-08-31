@@ -1,0 +1,66 @@
+.contact-us-content-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2eeec;
+    padding: 2rem;
+    border-bottom: 4px solid #f1b179;
+}
+
+.contact-us-content-wrapper h1 { 
+    font-family: "Rouge Script", cursive;
+    font-size: 11rem;
+    color: #f1b179;
+    text-shadow: 1px 1px 2px black;
+    z-index: 4;
+    position: relative;
+}
+
+.contact-us-form { 
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    font-family: "Montserrat", sans-serif;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    gap: 2rem;
+}
+
+.contact-us-form input, select, option { 
+    border: 3px solid #f1b179;
+    border-radius: 1rem;
+    
+}
+
+
+
+.fname-lname-container,
+.email-phone-container,
+.event-date-time-container,
+.hours-venue-name-wrapper,
+.venue-address-city-wrapper,
+.state-zip-wrapper { 
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.fname-container,
+.lname-container,
+.email-container,
+.phone-container,
+.event-date-container, 
+.event-time-container,
+.hours-needed-container,
+.venue-name-container,
+.venue-address-container,
+.city-name-container,
+.state-container,
+.zip-container { 
+    display: flex;
+    flex-direction: column;
+}
