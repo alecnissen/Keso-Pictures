@@ -36,7 +36,7 @@
 }
 
 .contact-us-form select { 
-    width: 20rem;
+    width: 21rem;
 }
 
 
@@ -45,7 +45,9 @@
 .phone-container-date-time-container,
 .hours-venue-name-address-wrapper,
 .city-state-zip-wrapper,
-.event-type-service-container { 
+.event-type-service-container,
+.contact-preference-finding-us-container,
+.message-wrapper { 
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -66,7 +68,30 @@
 .zip-container,
 .event-type-container,
 .service-container,
-.package-container { 
+.package-container,
+.contact-preference-container,
+.finding-us-container { 
     display: flex;
     flex-direction: column;
+}
+
+.message-container, .message-wrapper { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-container textarea { 
+    border: 3px solid #f1b179;
+    border-radius: 1rem;
+    width: 60rem;
+    height: 12rem;
+}
+
+.submit-btn-container button { 
+    padding: 0.5rem;
+    background-color: #f1b179;
+    border: 3px solid #f1b179;
+    border-radius: 1rem;
 }

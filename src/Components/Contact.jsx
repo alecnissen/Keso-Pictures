@@ -180,8 +180,36 @@ export default function Contact() {
     </div>
 
 
+    </div>
+
+    <div className='contact-preference-finding-us-container'>
+      <div className='contact-preference-container'> 
+      <label>Contact Preference</label>
+      <select>
+        <option>E-Mail</option>
+        <option>Phone</option>
+        <option>Text</option>
+      </select>
+
+      </div>
+
+    <div className='finding-us-container'>
+      <label>How did you find us?</label>
+      <input type='text'></input>
+    </div>
+
+    </div>
 
 
+    <div className='message-wrapper'>
+      <div className='message-container'>
+        <label>Your Message</label>
+        <textarea></textarea>
+      </div>
+
+    <div className='submit-btn-container'>
+    <button>Submit</button>
+    </div>
 
     </div>
 
