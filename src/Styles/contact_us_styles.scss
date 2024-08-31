@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     // justify-content: center;
-    // align-items: center;
+    align-items: center;
     font-family: "Montserrat", sans-serif;
     background-color: white;
     padding: 2rem;
@@ -35,14 +35,17 @@
     
 }
 
+.contact-us-form select { 
+    width: 20rem;
+}
 
 
-.fname-lname-container,
-.email-phone-container,
-.event-date-time-container,
-.hours-venue-name-wrapper,
-.venue-address-city-wrapper,
-.state-zip-wrapper { 
+
+.fname-lname-email-container,
+.phone-container-date-time-container,
+.hours-venue-name-address-wrapper,
+.city-state-zip-wrapper,
+.event-type-service-container { 
     display: flex;
     flex-direction: row;
     gap: 2rem;
@@ -60,7 +63,10 @@
 .venue-address-container,
 .city-name-container,
 .state-container,
-.zip-container { 
+.zip-container,
+.event-type-container,
+.service-container,
+.package-container { 
     display: flex;
     flex-direction: column;
 }

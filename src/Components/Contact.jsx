@@ -12,7 +12,7 @@ export default function Contact() {
 
     <form className='contact-us-form'> 
       
-        <div className='fname-lname-container'> 
+        <div className='fname-lname-email-container'> 
             <div className='fname-container'>
                 <label>First Name *</label>
                 <input type='text'></input>
@@ -21,23 +21,24 @@ export default function Contact() {
                 <label>Last Name *</label>
                 <input type='text'></input>
             </div>
-            
-        </div>
 
-
-        <div className='email-phone-container'>
             <div className='email-container'> 
             <label>E-Mail *</label>
             <input type='email'></input>
             </div>
 
+            
+        </div>
+
+
+        <div className='phone-container-date-time-container'>
+
             <div className='phone-container'>
             <label>Phone Number *</label>
             <input type='phone'></input>
             </div>
-        </div> 
 
-        <div className='event-date-time-container'> 
+
           <div className='event-date-container'> 
             <label>Event Date *</label> 
             <input type='text'></input>
@@ -47,10 +48,15 @@ export default function Contact() {
             <label>Event Time *</label>
             <input type='text'></input>
           </div>
-        </div>
 
 
-        <div className='hours-venue-name-wrapper'>
+
+        </div> 
+
+        
+
+
+        <div className='hours-venue-name-address-wrapper'>
         <div className='hours-needed-wrapper'>
           <div className='hours-needed-container'> 
           <label>Hours Needed *</label>
@@ -65,27 +71,29 @@ export default function Contact() {
           <input type='text'></input>
           </div>
         </div>
-        </div>
 
 
-        <div className='venue-address-city-wrapper'>
+      
           <div className='venue-address-container'> 
             <label>Venue Address *</label>
             <input type='text'></input>
           </div>
+
+
+        </div>
+
+
+        <div className='city-state-zip-wrapper'>
 
           <div className='city-name-container'> 
             <label>City *</label>
             <input type='text'></input>
           </div>
 
-        </div>
-
-        <div className='state-zip-wrapper'> 
-    <div className='state-container'> 
+          <div className='state-container'> 
         <label>State</label>
         <select>
-            <option value=""></option>
+            <option value="">Select a state</option>
             <option value="AL">Alabama</option>
             <option value="AK">Alaska</option>
             <option value="AZ">Arizona</option>
@@ -143,7 +151,39 @@ export default function Contact() {
         <label>Zip</label>
         <input type='text' pattern="\d{5}" title="Please enter a 5-digit zip code" maxlength="5"></input>
     </div>
-</div>
+
+
+        </div>
+
+    <div className='event-type-service-container'>
+      <div className='event-type-container'>
+        <label>Event Type</label>
+          <select>
+            <option>Hello</option>
+          </select>
+        
+      </div>
+
+    <div className='service-container'>
+    <label>Service</label>
+    <select>
+      <option>Photo booths</option>
+    </select>
+    </div>
+
+
+    <div className='package-container'>
+      <label>Package</label>
+      <select>
+        <option>Package #1</option>
+      </select>
+    </div>
+
+
+
+
+
+    </div>
 
 
     </form>
