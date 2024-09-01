@@ -1,8 +1,19 @@
 import React from 'react'
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import { useLayoutEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export default function Contact() {
+
+
+  const { pathname } = useLocation();
+
+  useLayoutEffect(() => {
+      window.scrollTo(0, 0)
+  }, [pathname]);
+
+
   return (
     <>
     <Header></Header>

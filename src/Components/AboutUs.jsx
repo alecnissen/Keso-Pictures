@@ -28,7 +28,7 @@ export default function AboutUs() {
             <p>
               We're Cheryl and Mike, the owners and operators of Keso Pictures. We are so happy
               you're here and look forward to chatting with you about your special day!{' '}
-              <Link>Send us a message </Link>
+              <Link to='/Contact'>Send us a message </Link>
               and let's get started making your day even more memorable!
             </p>
           </div>
