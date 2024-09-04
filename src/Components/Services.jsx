@@ -19,7 +19,7 @@ export default function Services() {
       <div className="services-content-wrapper">
         <div className="service-options-container">
           <div className="services-header-container">
-            <h1>Services</h1>
+            <h1 id='services-header-text'>Services</h1>
 
             <img src={starImg} className="star-img-1"></img>
 
@@ -53,11 +53,14 @@ export default function Services() {
             <div className="printed-photobooth-container">
               <h1>Printed Photobooth</h1>
               <p>
-                Unlimited photo prints for your guests to enjoy. Photos are printed from our
-                high-speed professional printer in 4"x6" or 2"x6" strips.
+                Receive unlimited photo prints for your guests to enjoy. Photos are printed from our
+                high-speed professional printer in your choice of 4"x6" or 2"x6" strips.
               </p>
             </div>
           </div>
+
+
+      
 
           <div className="magnet-threesixty-wrapper">
             <div className="magnet-photobooth-wrapper">
@@ -102,7 +105,7 @@ export default function Services() {
             </div>
           </div>
 
-
+          
 
           <div className='package-description-wrapper'>
           <div className='package-description-container'> 
