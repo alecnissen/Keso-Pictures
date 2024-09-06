@@ -1,10 +1,17 @@
 import React from 'react';
 import kesoLogo from '../assets/Keso-Logo.png';
 import services2StarImg from '../assets/star-alt-4-svgrepo-com.svg';
+import Header from './Header';
+import Footer from './Footer';
 
 export default function Services2() {
+
+  
   return (
     <>
+
+    <Header></Header>
+
       <div className="services2-content-wrapper">
       
 
@@ -65,6 +72,9 @@ video clips for your guests to enjoy.</li>
 
 
       </div>
+
+      <Footer></Footer>
+
     </>
   );
 }

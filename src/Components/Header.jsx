@@ -29,9 +29,16 @@ export default function Header() {
     <NavLink to="/">
     <button>Home</button>
     </NavLink>
-    <NavLink to="/Services">
+    <div className="dropdown">
+  <NavLink to="/Services">
     <button>Services</button>
-    </NavLink>
+  </NavLink>
+  <div className="dropdown-content">
+    <NavLink to="/Services">Photobooths</NavLink>
+    <NavLink to="/Services2">Custom Photobooth</NavLink>
+  </div>
+</div>
+
     <NavLink to='/GalleryPage'>
     <button>Gallery</button>
     </NavLink>

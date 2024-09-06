@@ -5,6 +5,7 @@ import kesoLogo from '../assets/Keso-Logo.png';
 import Services2 from './Services2';
 import { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import Footer from './Footer';
 
 export default function Services() {
   const { pathname } = useLocation();
@@ -125,8 +126,8 @@ your event. Packages are subject to taxes.</p>
       </div>
 
 
+    <Footer></Footer>
           
-          <Services2></Services2>
 
     </>
   );
