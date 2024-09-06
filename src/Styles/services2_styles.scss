@@ -10,18 +10,31 @@
   width: 18rem;
   border-radius: 50%;
   position: relative;
-  right: 18rem;
-  bottom: -3rem;
+  left: 30rem;
+  bottom: -22rem;
 }
 
+
+
 .services2-keso-logo-header-container {
-  display: flex;
-  justify-content: center;
-  // justify-content: space-evenly;
-  // justify-content: flex-end;
+  // display: flex;
+  // justify-content: center;
+  
   position: relative;
   z-index: 4;
+  
 }
+
+
+
+#customize-your-style-text { 
+  font-size: 12rem;
+  margin-right: 20rem;
+  margin-bottom: auto;
+ 
+  text-align: right;
+}
+
 
 .orange-circle-2 {
   width: 35rem; /* Width of the circle */
@@ -29,8 +42,8 @@
   background-color: #f6c9a1; /* Background color of the circle */
   border-radius: 50%; /* Makes the div a circle */
   position: absolute; /* Position it absolutely */
-  bottom: -26rem; /* Adjust the position to move it behind */
-  right: 5rem; /* Adjust as needed */
+  bottom: -4rem; /* Adjust the position to move it behind */
+  right: 83rem; /* Adjust as needed */
   z-index: -1;
 }
 
@@ -57,16 +70,16 @@
   right: 3rem;
 }
 
-.project-1 { 
-  box-shadow: rgba(0, 0, 0, 0.65) 0px 10px 15px;
-}
+// .project-1 { 
+//   box-shadow: rgba(0, 0, 0, 0.65) 0px 10px 15px;
+// }
 
 .content-containers-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  // margin-top: 5rem;
   padding: 2rem;
   gap: 2rem;
 }
@@ -76,6 +89,7 @@
   justify-content: center;
   align-items: stretch;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .or-container {

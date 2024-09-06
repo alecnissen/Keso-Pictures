@@ -6,13 +6,13 @@ export default function Services2() {
   return (
     <>
       <div className="services2-content-wrapper">
-      <div className='project-1'>
+      
 
         <div className="services2-keso-logo-header-container">
           <div className="orange-circle-2"></div>
           <img src={kesoLogo} className="keso-logo-2"></img>
 
-          <h1 className="customize-your-style-text">
+          <h1 id="customize-your-style-text">
             Customize <br></br> Your Style
           </h1>
           <img src={services2StarImg} className="services2-star-img-1"></img>
@@ -60,7 +60,7 @@ video clips for your guests to enjoy.</li>
 
         </div>
 
-       </div>
+      
 
 
 
