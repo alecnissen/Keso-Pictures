@@ -39,27 +39,17 @@
   z-index: 0;
 }
 
-.services2-keso-logo-header-container h1 {
-  font-family: 'Rouge Script', cursive;
-  font-size: 10rem;
-  color: #f1b179;
-  text-shadow: 1px 1px 2px black;
-  z-index: 4;
-  position: relative;
-  // right: 4rem;
-  text-align: center;
-}
 
 .services2-star-img-1 {
   position: relative;
-  left: 11rem;
-  top: 1rem;
+  left: 10rem;
+  top: 5rem;
 }
 
 .services2-star-img-2 {
   position: relative;
-  top: -28rem;
-  left: 9rem;
+  top: 31rem;
+  left: 11rem;
 }
 
 // .project-1 { 
@@ -161,6 +151,8 @@
     text-shadow: 1px 1px 2px black;
     z-index: 4;
     margin-right: 20rem;
-    // position: relative;
+    // margin-top: -1rem;
+    position: relative;
+    bottom: 3rem;
     // margin-left: 25rem;
 }

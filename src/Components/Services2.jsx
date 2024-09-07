@@ -24,7 +24,10 @@ export default function Services2() {
 
 
           <div className="orange-circle-2"></div>
-          <img src={kesoLogo} className="keso-logo-2"></img>
+          <img src={kesoLogo} className="keso-logo-2"></img> 
+
+          <img src={services2StarImg} className="services2-star-img-1"></img>
+          <img src={services2StarImg} className="services2-star-img-2"></img>
 
         <div className='services2-logo-header-container'> 
           <h1 className='customize-style-text'>Customize <br></br>Your Style</h1>
