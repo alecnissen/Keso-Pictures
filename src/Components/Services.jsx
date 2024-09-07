@@ -41,7 +41,7 @@ export default function Services() {
               <h1>Digital Photobooth</h1>
               <p>
                 Enjoy our open air photobooth with digital share. Guests can send their photos
-                instantly to their phone via custom QR, airdrop, text, or email.
+                instantly to their phone via a custom QR, airdrop, text, or email.
               </p>
             </div>
 

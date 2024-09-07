@@ -5,17 +5,13 @@ import Header from './Header';
 import Footer from './Footer';
 
 export default function Services2() {
-
-  
   return (
     <>
-
-    <Header></Header>
+      <Header></Header>
 
       <div className="services2-content-wrapper">
-      
 
-        <div className="services2-keso-logo-header-container">
+        {/* <div className="services2-keso-logo-header-container">
           <div className="orange-circle-2"></div>
           <img src={kesoLogo} className="keso-logo-2"></img>
 
@@ -24,7 +20,20 @@ export default function Services2() {
           </h1>
           <img src={services2StarImg} className="services2-star-img-1"></img>
           <img src={services2StarImg} className="services2-star-img-2"></img>
+        </div> */}
+
+
+          <div className="orange-circle-2"></div>
+          <img src={kesoLogo} className="keso-logo-2"></img>
+
+        <div className='services2-logo-header-container'> 
+          <h1 className='customize-style-text'>Customize <br></br>Your Style</h1>
+
         </div>
+
+
+
+       
 
         <div className="content-containers-wrapper">
           <div className="services2-top-row-container">
@@ -37,10 +46,9 @@ export default function Services2() {
               </p>
             </div>
 
-            <div className='or-container'>
-            <h1>OR</h1>
+            <div className="or-container">
+              <h1>OR</h1>
             </div>
-
 
             <div className="you-design-it-container">
               <h1>You Design It</h1>
@@ -52,29 +60,21 @@ export default function Services2() {
             </div>
           </div>
 
+          <div className="package-upgrades-container">
+            <h1>Package Upgrades</h1>
+            <ul>
+              <li>LED Enclosure for the ultimate backdrop for your photos or 360 videos</li>
 
-            <div className='package-upgrades-container'>
-                <h1>Package Upgrades</h1>
-                <ul>
-                    <li>LED Enclosure for the ultimate backdrop for your photos
-or 360 videos</li>
-
-                <li>Live Gallery TV with slide show of your guests’ photos or
-video clips for your guests to enjoy.</li>
-                </ul>
-            </div>
-
-
+              <li>
+                Live Gallery TV with slide show of your guests’ photos or video clips for your
+                guests to enjoy.
+              </li>
+            </ul>
+          </div>
         </div>
-
-      
-
-
-
       </div>
 
       <Footer></Footer>
-
     </>
   );
 }

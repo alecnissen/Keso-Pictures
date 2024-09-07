@@ -2,6 +2,8 @@
   background-color: #f2eeec;
   padding: 2rem;
   position: relative; 
+  border-bottom: 4px solid #f1b179;
+  // margin: 0;
   // background-color: #f1b179;
 }
 
@@ -9,31 +11,18 @@
   z-index: 2;
   width: 18rem;
   border-radius: 50%;
-  position: relative;
-  left: 30rem;
-  bottom: -22rem;
+  position: absolute;
+  left: 34rem;
+  top: 6rem;
+  // bottom: -22rem;
 }
 
 
 
-.services2-keso-logo-header-container {
-  // display: flex;
-  // justify-content: center;
-  
-  position: relative;
-  z-index: 4;
-  
-}
 
 
 
-#customize-your-style-text { 
-  font-size: 12rem;
-  margin-right: 20rem;
-  margin-bottom: auto;
- 
-  text-align: right;
-}
+
 
 
 .orange-circle-2 {
@@ -42,9 +31,12 @@
   background-color: #f6c9a1; /* Background color of the circle */
   border-radius: 50%; /* Makes the div a circle */
   position: absolute; /* Position it absolutely */
-  bottom: -4rem; /* Adjust the position to move it behind */
-  right: 83rem; /* Adjust as needed */
-  z-index: -1;
+  // bottom: -3rem; 
+  // right: 83rem; 
+  top: 2rem;
+  left: 13rem;
+  // z-index: -1;
+  z-index: 0;
 }
 
 .services2-keso-logo-header-container h1 {
@@ -60,14 +52,14 @@
 
 .services2-star-img-1 {
   position: relative;
-  right: 39rem;
-  bottom: 10rem;
+  left: 11rem;
+  top: 1rem;
 }
 
 .services2-star-img-2 {
   position: relative;
-  top: 10rem;
-  right: 3rem;
+  top: -28rem;
+  left: 9rem;
 }
 
 // .project-1 { 
@@ -82,6 +74,7 @@
   // margin-top: 5rem;
   padding: 2rem;
   gap: 2rem;
+ 
 }
 
 .services2-top-row-container {
@@ -154,4 +147,20 @@
   text-decoration-color: #f1b179;
   text-underline-offset: 0.6rem;
   font-size: 2.7rem;
+}
+
+
+
+// new styles for header container
+
+.customize-style-text { 
+    text-align: right;
+    font-family: "Rouge Script", cursive;
+    font-size: 13rem;
+    color: #f1b179;
+    text-shadow: 1px 1px 2px black;
+    z-index: 4;
+    margin-right: 20rem;
+    // position: relative;
+    // margin-left: 25rem;
 }
