@@ -170,7 +170,9 @@ export default function Contact() {
       <div className='event-type-container'>
         <label>Event Type</label>
           <select>
-            <option>Hello</option>
+            <option>Wedding</option>
+            <option>Birthday</option>
+            <option>Corporate event</option>
           </select>
         
       </div>

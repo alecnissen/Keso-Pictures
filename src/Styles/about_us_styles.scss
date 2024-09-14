@@ -35,22 +35,23 @@
     font-family: "Montserrat", sans-serif;
     padding: 2rem;
     border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.65) 0px 10px 15px;
+    font-size: 2rem;
 }
 
 .hello-textbox p,
 .about-us-textbox p { 
-    max-width: 60rem;
+    max-width: 70rem;
 }
 
 .hello-textbox a { 
     color: #f1b179;
 }
 
- 
-
 .hello-container img { 
-    width: 35rem;
+    width: 45rem;
     border-radius: 1rem;
+    margin-top: 1rem;
 }
 
 
@@ -63,8 +64,12 @@
 }
 
 .about-us-photo-container img { 
-    width: 25rem;
+    width: 30rem;
     border-radius: 1rem;
+}
+
+.about-us-textbox strong { 
+    color: #f1b179;
 }
 
 .explore-services-container { 

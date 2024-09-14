@@ -40,7 +40,7 @@ export default function AboutUs() {
           <h1>About Us</h1>
 
           <div className="about-us-textbox">
-            <p>At <strong>Keso Pictures</strong></p>
+            <p className='keso-pictures-bold-text'>At <strong>Keso Pictures</strong></p>
             <p>
             Our mission is to help capture memories and spread joy through our fun 
             and playful photo experiences. We believe that every event, big or small
