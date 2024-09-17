@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './Header';
 import starImg from '../assets/star-alt-4-svgrepo-com.svg';
 import kesoLogo from '../assets/Keso-Logo.png';
-import Services2 from './Services2';
 import { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Footer from './Footer';
@@ -11,7 +10,7 @@ export default function Services() {
   const { pathname } = useLocation();
 
   useLayoutEffect(() => {
-      window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
   }, [pathname]);
 
   return (
@@ -20,7 +19,9 @@ export default function Services() {
       <div className="services-content-wrapper">
         <div className="service-options-container">
           <div className="services-header-container">
-            <h1 id='services-header-text'>Services</h1>
+            <h1 id="services-header-text">
+              Photobooths <br></br> Available
+            </h1>
 
             <img src={starImg} className="star-img-1"></img>
 
@@ -59,9 +60,6 @@ export default function Services() {
               </p>
             </div>
           </div>
-
-        
-      
 
           <div className="magnet-threesixty-wrapper">
             <div className="magnet-photobooth-wrapper">
@@ -106,29 +104,23 @@ export default function Services() {
             </div>
           </div>
 
-          
-
-          <div className='package-description-wrapper'>
-          <div className='package-description-container'> 
-            <p>All packages include the cost of 1 to 2 onsite attendants for the full duration of the event with a 3-hour
-minimum. Cost includes set up and breakdown, travel distance within a 50-mile radius, and digital album of
-all captured photos sent within 3 days after your event. We require access to your venue at least 2 hours
-prior to your event for set up and a minimum of 10'x10' space. A retainer equal to at least 1 hour of your
-rental package is required at the time of booking and the remaining balance is due at least 10 days prior to
-your event. Packages are subject to taxes.</p>
-
+          <div className="package-description-wrapper">
+            <div className="package-description-container">
+              <p>
+                All packages include the cost of 1 to 2 onsite attendants for the full duration of
+                the event with a 3-hour minimum. Cost includes set up and breakdown, travel distance
+                within a 50-mile radius, and digital album of all captured photos sent within 3 days
+                after your event. We require access to your venue at least 2 hours prior to your
+                event for set up and a minimum of 10'x10' space. A retainer equal to at least 1 hour
+                of your rental package is required at the time of booking and the remaining balance
+                is due at least 10 days prior to your event. Packages are subject to taxes.
+              </p>
+            </div>
           </div>
-          </div>
-
-
-
         </div>
       </div>
 
-
-    <Footer></Footer>
-          
-
+      <Footer></Footer>
     </>
   );
 }

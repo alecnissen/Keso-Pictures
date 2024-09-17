@@ -9,7 +9,7 @@
 .services-header-container h1 { 
     text-align: right;
     font-family: "Rouge Script", cursive;
-    font-size: 18rem;
+    font-size: 14rem;
     color: #f1b179;
     text-shadow: 1px 1px 2px black;
     z-index: 4;
@@ -23,13 +23,13 @@
 
 .star-img-1 { 
     position: relative;
-    bottom: 14rem;
+    bottom: 29rem;
     right: 1rem;
 }
 
 .star-img-2 { 
     position: relative;
-    bottom: -13rem;
+    bottom: 2rem;
     left: 1rem;
 }
 
@@ -39,7 +39,7 @@
     border-radius: 50%;
     position: relative;
     left: 30rem;
-    bottom: 25rem; 
+    bottom: 41rem; 
 }
 
 .service-options-container { 
@@ -229,7 +229,7 @@
     background-color: #f6c9a1;  
     border-radius: 50%;         
     position: absolute;         
-    top: -25rem;                
+    top: -40rem;                
     left: 10rem;                
     z-index: -1;                
     

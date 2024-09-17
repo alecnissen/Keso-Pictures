@@ -19,6 +19,7 @@
 
 .email-phone-container { 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: "Montserrat", sans-serif;
@@ -50,6 +51,10 @@
 .footer-social-links-container svg { 
     width: 6em;
     height: 2.5em;
+}
+
+.e-font-icon-svg .e-fab-instagram { 
+    color: #f1b179;
 }
 
 
