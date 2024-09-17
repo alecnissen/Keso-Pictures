@@ -4,12 +4,15 @@
     justify-content: center;
     align-items: center;
     background-color: #f2eeec;
+    z-index: 1;
 }
 
 .gallery-page-header-container { 
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .gallery-page-header-container h1 { 
@@ -44,6 +47,7 @@
     gap: 2rem;
     padding: 1rem;
     border-bottom: 4px solid #f1b179;
+    z-index: 2;
 }
 
 .photo-container-gallery-page img { 
@@ -52,4 +56,24 @@
 
 .colored-img { 
     height: 22rem;
+}
+
+.keso-logo-gallery-page { 
+    width: 18rem;
+    border-radius: 50%;
+    position: relative;
+    right: 3rem;
+}
+
+
+
+.orange-circle-gallery-page { 
+    width: 35rem;         
+    height: 35rem;             
+    background-color: #f6c9a1;  
+    border-radius: 50%;         
+    position: absolute; 
+    z-index: -1;
+    left: -20rem;
+    top: 2rem;
 }
