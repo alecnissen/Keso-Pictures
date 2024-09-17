@@ -51,11 +51,18 @@
 .footer-social-links-container svg { 
     width: 6em;
     height: 2.5em;
+    cursor: pointer;
 }
 
-.e-font-icon-svg .e-fab-instagram { 
-    color: #f1b179;
+.footer-social-links-container svg path {
+    fill: #f1b179; /* Change to your desired orange color */
 }
+
+.footer-social-links-container svg:hover path {
+    fill: black; /* Turn black on hover */
+  }
+
+  
 
 
 @media (max-width: 1000px) { 
