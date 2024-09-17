@@ -3,14 +3,21 @@ import kesoLogo from '../assets/Keso-Logo.png';
 import services2StarImg from '../assets/star-alt-4-svgrepo-com.svg';
 import Header from './Header';
 import Footer from './Footer';
+import { useLayoutEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export default function Services2() {
+  const { pathname } = useLocation();
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <Header></Header>
 
       <div className="services2-content-wrapper">
-
         {/* <div className="services2-keso-logo-header-container">
           <div className="orange-circle-2"></div>
           <img src={kesoLogo} className="keso-logo-2"></img>
@@ -22,21 +29,17 @@ export default function Services2() {
           <img src={services2StarImg} className="services2-star-img-2"></img>
         </div> */}
 
+        <div className="orange-circle-2"></div>
+        <img src={kesoLogo} className="keso-logo-2"></img>
 
-          <div className="orange-circle-2"></div>
-          <img src={kesoLogo} className="keso-logo-2"></img> 
+        <img src={services2StarImg} className="services2-star-img-1"></img>
+        <img src={services2StarImg} className="services2-star-img-2"></img>
 
-          <img src={services2StarImg} className="services2-star-img-1"></img>
-          <img src={services2StarImg} className="services2-star-img-2"></img>
-
-        <div className='services2-logo-header-container'> 
-          <h1 className='customize-style-text'>Customize <br></br>Your Style</h1>
-
+        <div className="services2-logo-header-container">
+          <h1 className="customize-style-text">
+            Customize <br></br>Your Style
+          </h1>
         </div>
-
-
-
-       
 
         <div className="content-containers-wrapper">
           <div className="services2-top-row-container">

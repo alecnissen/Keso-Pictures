@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import kesoPhotoboothImg from '../assets/20231006_175745 (1).jpg';
 import Footer from '../Components/Footer';
 import galleryImg1 from '../assets/1696634302_20.jpg';
 import galleryImg2 from '../assets/1696634598_26.jpg';

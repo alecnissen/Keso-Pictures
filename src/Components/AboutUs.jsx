@@ -7,15 +7,15 @@ import aboutUsImg1 from '../assets/DSC04817_1.jpg';
 import aboutUsImg2 from '../assets/DSC04806_1.jpg';
 import { useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import kesoLogoAboutPage from '../assets/Keso-Logo.png';
 
 export default function AboutUs() {
-    const { pathname } = useLocation();
+  const { pathname } = useLocation();
 
-    useLayoutEffect(() => {
-        window.scrollTo(0, 0)
-    }, [pathname]);
-    
-    
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <>
       <Header></Header>
@@ -28,7 +28,7 @@ export default function AboutUs() {
             <p>
               We're Cheryl and Mike, the owners and operators of Keso Pictures. We are so happy
               you're here and look forward to chatting with you about your special day!{' '}
-              <Link to='/Contact'>Send us a message </Link>
+              <Link to="/Contact">Send us a message </Link>
               and let's get started making your day even more memorable!
             </p>
           </div>
@@ -36,36 +36,38 @@ export default function AboutUs() {
           <img src={kesoAboutUsImg}></img>
         </div>
 
+          {/* <img src={kesoLogoAboutPage} className="keso-logo-about-us-page"></img>
+
+          <div className="orange-circle-about-us-page"></div> */}
+
         <div className="about-us-container">
           <h1>About Us</h1>
 
           <div className="about-us-textbox">
-            <p className='keso-pictures-bold-text'>At <strong>Keso Pictures</strong></p>
+            <p className="keso-pictures-bold-text">
+              At <strong>Keso Pictures</strong>
+            </p>
             <p>
-            Our mission is to help capture memories and spread joy through our fun 
-            and playful photo experiences. We believe that every event, big or small
-            , deserves to be celebrated in a unique and special way. Our photo booths provide 
-            a way for guests to let loose and have fun while creating lasting memories. 
-            Whether it's a wedding, corporate event, or birthday party, we're dedicated
-            to bringing smiles and laughter to every occasion, so strike a pose, grab a prop, 
-            and come smile with us!
+              Our mission is to help capture memories and spread joy through our fun and playful
+              photo experiences. We believe that every event, big or small , deserves to be
+              celebrated in a unique and special way. Our photo booths provide a way for guests to
+              let loose and have fun while creating lasting memories. Whether it's a wedding,
+              corporate event, or birthday party, we're dedicated to bringing smiles and laughter to
+              every occasion, so strike a pose, grab a prop, and come smile with us!
             </p>
           </div>
         </div>
 
-
-        <div className='about-us-photo-container'> 
-        <img src={aboutUsImg1}></img>
-        <img src={aboutUsImg2}></img>
+        <div className="about-us-photo-container">
+          <img src={aboutUsImg1}></img>
+          <img src={aboutUsImg2}></img>
         </div>
 
-
-        <div className='explore-services-container'> 
-            <Link to='/Services'><h1>Explore Our Services!</h1></Link>
+        <div className="explore-services-container">
+          <Link to="/Services">
+            <h1>Explore Our Services!</h1>
+          </Link>
         </div>
-
-
-
       </div>
 
       <Footer></Footer>
